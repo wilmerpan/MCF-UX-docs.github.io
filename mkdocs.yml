@@ -1,2 +1,11 @@
-site_name: My Docs
+site_name: MCF UX documentation
 theme: material
+
+plugins:
+    - search
+    - encryptcontent: 
+        title_prefix: '🔒  '
+        summary: 'Access required to view this document'
+        placeholder: '* * * * * *'
+        decryption_failure_message: 'another informational message when decryption fail'
+        encryption_info_message: 'Please type in the password below'
